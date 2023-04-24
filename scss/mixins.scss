@@ -1,0 +1,21 @@
+@mixin adaptiveValue($property, $pc, $mobile, $maxWidth) {
+    $addSize: $pc - $mobile;
+    $addMobile: $addSize + $addSize * 0.7;
+    @media (max-width: 767px) {
+      #{$property}: calc(#{$mobile}px + #{$addMobile} * ((100vw - 320px) / #{($maxWidth - 320)}));
+    }
+    @media (min-width: 768px) {
+      #{$property}: calc(#{$mobile}px + #{$addSize} * ((100vw - 320px) / #{($maxWidth - 320)}));
+    }
+}
+
+
+@function rem($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+}
+
+@function vw($value) {
+    $vwValue: ($value * 0.05) + vw;
+    @return $vwValue;
+}

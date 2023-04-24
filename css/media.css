@@ -1,0 +1,16 @@
+@media only screen and (max-width: 376px) {
+  .main .page__body {
+    display: block;
+  }
+  .main .page__title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .page .continue1 {
+    display: none;
+  }
+  .page .continue2 {
+    display: block;
+  }
+}
