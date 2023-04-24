@@ -18,7 +18,7 @@
   color: #f5f5f5;
 }
 
-.main .info__right-block .right-block__telegram .telegram-btn:hover, .main .info__right-block .order .order-btn:hover, .main .info__right-block .order .active2, .main .info__right-block .order .select-power:hover, .main .info__right-block .order .ord-title, .main .info__left-block .title, .main .page__video-btn:hover, .main .page__continue-btn:hover, .main .page__title {
+.main .info__right-block .right-block__telegram .telegram-btn:hover, .main .info__right-block .order .order-btn:hover, .main .info__right-block .order .active2, .main .info__right-block .order .select-power:hover, .main .info__right-block .order .ord-title, .main .info__left-block .title, .main .page .video-btn1:hover, .main .page__continue-btn:hover, .main .page__title {
   text-shadow: 0 -1px 0 #f5f5f5, 0 -1px 0 #f5f5f5, 0 1px 0 #f5f5f5, 0 1px 0 #f5f5f5, -1px 0 0 #f5f5f5, 1px 0 0 #f5f5f5, -1px 0 0 #f5f5f5, 1px 0 0 #f5f5f5, -1px -1px 0 #f5f5f5, 1px -1px 0 #f5f5f5, -1px 1px 0 #f5f5f5, 1px 1px 0 #f5f5f5, -1px -1px 0 #f5f5f5, 1px -1px 0 #f5f5f5, -1px 1px 0 #f5f5f5, 1px 1px 0 #f5f5f5;
 }
 
@@ -173,7 +173,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   margin-top: 17.125rem;
 }
-.main .page__video-btn {
+.main .page .video-btn1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,7 +196,7 @@ body::-webkit-scrollbar-thumb {
   transition: box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
-.main .page__video-btn:hover {
+.main .page .video-btn1:hover {
   -webkit-box-shadow: 0px 0px 15px 12px rgba(201, 177, 145, 0.25);
           box-shadow: 0px 0px 15px 12px rgba(201, 177, 145, 0.25);
 }
@@ -221,8 +221,15 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .main .page__phonebg {
+  max-width: 7.5rem;
   margin-top: 2.375rem;
   display: none;
+}
+.main .page__phonebg .video-btn2 {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-left: 0.6875rem;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .main .info {
@@ -734,9 +741,6 @@ body::-webkit-scrollbar-thumb {
     display: -ms-flexbox;
     display: flex;
   }
-  .page .page__phonebg img {
-    margin-left: 14.375rem;
-  }
   .main li {
     margin-left: 0.1875rem;
   }
@@ -830,7 +834,7 @@ body {
   }
   .main .page .phonebgimg {
     width: 20.9375rem;
-    margin: -7.5rem 0 0 -5rem;
+    margin: -10rem 0 0 -7.5rem;
     pointer-events: none;
   }
   .main .page__phonebg img {

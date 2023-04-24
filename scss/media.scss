@@ -68,9 +68,6 @@
         }
         .page__phonebg {
             display: flex;
-            img {
-                margin-left: rem(230);
-            }
         }
     }
     .main {
@@ -194,11 +191,10 @@
                 width: rem(68);
                 height: rem(30);
                 padding: 0 rem(15);
-                // margin-left: rem(22);
             }
             .phonebgimg {
                 width: rem(335);
-                margin: rem(-120) 0 0 rem(-80);
+                margin: rem(-160) 0 0 rem(-120);
                 pointer-events: none;
             }
             &__phonebg {

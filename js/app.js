@@ -63,3 +63,14 @@ button3.addEventListener('click', () => {
     element3.scrollIntoView({ behavior: 'smooth' });
 });
 
+
+
+function scrollDown() {
+    const button4 = document.querySelector('#video-btn2');
+    const element4 = document.querySelector('#video');
+
+    button4.addEventListener('click', () => {
+
+        element4.scrollIntoView({ behavior: 'smooth' });
+    });
+}

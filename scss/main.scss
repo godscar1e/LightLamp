@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb {
             display: flex;
             margin-top: rem(274);
         }
-        &__video-btn {
+        .video-btn1 {
             display: flex;
             justify-content: space-between;
             margin: 0 0 0 rem(36);
@@ -94,9 +94,16 @@ body::-webkit-scrollbar-thumb {
             letter-spacing: 0.05em;
         }
         &__phonebg {
+            max-width: rem(120);
             margin-top: rem(38);
             display: none;
             img {
+            }
+            .video-btn2 {
+                width: rem(28);
+                height: rem(28);
+                margin-left: rem(11);
+                cursor: pointer;
             }
         }
     }
