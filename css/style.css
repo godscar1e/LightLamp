@@ -18,7 +18,7 @@
   color: #f5f5f5;
 }
 
-.main .info__right-block .right-block__telegram .telegram-btn:hover, .main .info__right-block .order .order-btn:hover, .main .info__right-block .order .active2, .main .info__right-block .order .select-power:hover, .main .info__right-block .order .ord-title, .main .info__left-block .title, .main .page .video-btn1:hover, .main .page__continue-btn:hover, .main .page__title {
+.main .info__right-block .right-block__telegram .telegram-btn:hover, .main .info__right-block .order .order-btn:hover, .main .info__right-block .order .active2, .main .info__right-block .order .select-power:hover, .main .page .video-btn1:hover, .main .page__continue-btn:hover {
   text-shadow: 0 -1px 0 #f5f5f5, 0 -1px 0 #f5f5f5, 0 1px 0 #f5f5f5, 0 1px 0 #f5f5f5, -1px 0 0 #f5f5f5, 1px 0 0 #f5f5f5, -1px 0 0 #f5f5f5, 1px 0 0 #f5f5f5, -1px -1px 0 #f5f5f5, 1px -1px 0 #f5f5f5, -1px 1px 0 #f5f5f5, 1px 1px 0 #f5f5f5, -1px -1px 0 #f5f5f5, 1px -1px 0 #f5f5f5, -1px 1px 0 #f5f5f5, 1px 1px 0 #f5f5f5;
 }
 
@@ -117,6 +117,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 5.625rem;
   line-height: 6.8125rem;
   color: #c9b191;
+  text-shadow: 0.0625rem 0.125rem 0 #1f1611, 0.1875rem 0.25rem 0 #f5f5f5;
 }
 @media (max-width: 767px) {
   .main .page__title {
@@ -303,6 +304,7 @@ body::-webkit-scrollbar-thumb {
   height: 26.4375rem;
 }
 .main .info__left-block .title {
+  text-shadow: 0.0625rem 0.125rem 0 #1f1611, 0.1875rem 0.25rem 0 #f5f5f5;
   color: #c9b191;
 }
 @media (max-width: 767px) {
@@ -422,7 +424,9 @@ body::-webkit-scrollbar-thumb {
   font-weight: 300;
   font-size: 32px;
   line-height: 39px;
-  color: #c9b191;
+  color: #f5f5f5;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #c9b191;
 }
 @media (max-width: 767px) {
   .main .info__right-block .order .ord-title {
@@ -810,6 +814,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-shadow: 1px 2px 0 #1f1611, 2px 3px 0 #f5f5f5;
   }
   .main .page__bgimage {
     display: none;
@@ -854,6 +859,7 @@ body {
   }
   .main .info__left-block .title {
     margin-left: -0.125rem;
+    text-shadow: 1px 2px 0 #1f1611, 2px 2px 0 #f5f5f5;
   }
   .main .info .grid-item:nth-child(n) {
     margin-left: -1.25rem;
@@ -967,6 +973,10 @@ body {
   }
   .main .info .right-block .telegram .telegram-btn {
     width: 20.9375rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding-right: 8.5625rem;
   }
   .main .info .right-block .telegram .telegram-btn img {
     margin-left: 16rem;

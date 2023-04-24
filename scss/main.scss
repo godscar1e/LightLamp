@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
             line-height: rem(109);
 
             color: #c9b191;
-            @extend %whiteStroke;
+            text-shadow: rem(1) rem(2) 0 $mainBrownColor, rem(3) rem(4) 0 $textWhiteColor;
         }
 
         &__bgimage {
@@ -140,7 +140,7 @@ body::-webkit-scrollbar-thumb {
 
             .title {
                 @extend %secondTitle;
-                @extend %whiteStroke;
+                text-shadow: rem(1) rem(2) 0 $mainBrownColor, rem(3) rem(4) 0 $textWhiteColor;
                 color: $mainBegeColor;
             }
 
@@ -242,8 +242,9 @@ body::-webkit-scrollbar-thumb {
                     font-weight: 300;
                     font-size: 32px;
                     line-height: 39px;
-                    color: $mainBegeColor;
-                    @extend %whiteStroke;
+                    color: $textWhiteColor;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: $mainBegeColor;
                 }
 
                 .power__btns {

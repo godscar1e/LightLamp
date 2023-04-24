@@ -171,7 +171,7 @@
                 font-size: 32px;
                 line-height: 39px;
                 align-items: center;
-                // @include adaptiveValue("margin-left", 17, 20, 1920);
+                text-shadow: 1px 2px 0 $mainBrownColor, 2px 3px 0 $textWhiteColor;
             }
             &__bgimage {
                 display: none;
@@ -214,6 +214,7 @@
                 grid-row-gap: 0px;
                 .title {
                     margin-left: rem(-2);
+                    text-shadow: 1px 2px 0 $mainBrownColor, 2px 2px 0 $textWhiteColor;
                 }
             }
             .grid-item:nth-child(n) {
@@ -337,7 +338,10 @@
 
                     .telegram-btn {
                         width: rem(335);
-
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        padding-right: rem(137);
                         img {
                             margin-left: rem(256);
                         }
