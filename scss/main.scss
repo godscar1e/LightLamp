@@ -98,7 +98,11 @@ body::-webkit-scrollbar-thumb {
             max-width: rem(120);
             margin-top: rem(38);
             display: none;
-            img {
+            img:nth-child(2) {
+                filter: drop-shadow(0px 3px 10px #c9b191);
+            }
+            img:nth-child(3) {
+                filter: drop-shadow(3px 0 10px #c9b191);
             }
             .video-btn2 {
                 width: rem(28);
