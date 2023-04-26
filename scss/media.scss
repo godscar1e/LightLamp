@@ -21,6 +21,11 @@
 }
 
 @media only screen and (max-width: 1534px) {
+    html,
+    body {
+        max-width: 140%;
+        overflow-x: hidden;
+    }
     .page__bgimage {
         width: 850px;
     }
@@ -38,9 +43,14 @@
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
     .bgimage {
         width: 830px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .bgimage {
         transform: translate(0, 100px);
     }
 }
@@ -51,7 +61,7 @@
     }
     .bgimage {
         width: 830px;
-        transform: translatex(-200px);
+        transform: translatex(0px);
     }
     .page__continue-btn {
         margin-bottom: rem(220);
@@ -184,7 +194,6 @@
                 display: none;
             }
             #downbtn2 {
-                display: block;
                 width: rem(68);
                 height: rem(30);
                 padding: 0 rem(15);
@@ -193,11 +202,11 @@
                 width: rem(335);
                 margin: rem(-160) 0 0 rem(-120);
             }
-            &__phonebg {
-                img {
-                    display: block;
-                }
-            }
+            // &__phonebg {
+            //     // img {
+            //     //     display: block;
+            //     // }
+            // }
         }
         .info {
             max-width: rem(0);

@@ -233,6 +233,7 @@ body::-webkit-scrollbar-thumb {
           filter: drop-shadow(3px 0 10px #c9b191);
 }
 .main .page__phonebg .video-btn2 {
+  z-index: 555;
   width: 1.75rem;
   height: 1.75rem;
   margin-left: 0.6875rem;
@@ -518,8 +519,8 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 .main .info__right-block .order .select-color1:hover {
-  -webkit-filter: drop-shadow(3px 0 10px #0c4b7e);
-          filter: drop-shadow(3px 0 10px #0c4b7e);
+  -webkit-filter: drop-shadow(5px 0 12px #0c4b7e);
+          filter: drop-shadow(5px 0 12px #0c4b7e);
   background-repeat: no-repeat;
 }
 .main .info__right-block .order .select-color2:hover {
@@ -528,8 +529,8 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
 }
 .main .info__right-block .order .select-color1.active1 {
-  -webkit-filter: drop-shadow(3px 0 10px #0c4b7e);
-          filter: drop-shadow(3px 0 10px #0c4b7e);
+  -webkit-filter: drop-shadow(5px 0 12px #0c4b7e);
+          filter: drop-shadow(5px 0 12px #0c4b7e);
   background-repeat: no-repeat;
 }
 .main .info__right-block .order .select-color2.active1 {
@@ -717,6 +718,11 @@ body::-webkit-scrollbar-thumb {
   }
 }
 @media only screen and (max-width: 1534px) {
+  html,
+body {
+    max-width: 140%;
+    overflow-x: hidden;
+  }
   .page__bgimage {
     width: 850px;
   }
@@ -728,9 +734,13 @@ body::-webkit-scrollbar-thumb {
     display: block;
   }
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
   .bgimage {
     width: 830px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .bgimage {
     -webkit-transform: translate(0, 100px);
             transform: translate(0, 100px);
   }
@@ -742,8 +752,8 @@ body::-webkit-scrollbar-thumb {
   }
   .bgimage {
     width: 830px;
-    -webkit-transform: translatex(-200px);
-            transform: translatex(-200px);
+    -webkit-transform: translatex(0px);
+            transform: translatex(0px);
   }
   .page__continue-btn {
     margin-bottom: 13.75rem;
@@ -847,7 +857,6 @@ body {
     display: none;
   }
   .main .page #downbtn2 {
-    display: block;
     width: 4.25rem;
     height: 1.875rem;
     padding: 0 0.9375rem;
@@ -855,9 +864,6 @@ body {
   .main .page .phonebgimg {
     width: 20.9375rem;
     margin: -10rem 0 0 -7.5rem;
-  }
-  .main .page__phonebg img {
-    display: block;
   }
   .main .info {
     max-width: 0rem;

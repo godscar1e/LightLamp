@@ -105,6 +105,7 @@ body::-webkit-scrollbar-thumb {
                 filter: drop-shadow(3px 0 10px #c9b191);
             }
             .video-btn2 {
+                z-index: 555;
                 width: rem(28);
                 height: rem(28);
                 margin-left: rem(11);
@@ -306,7 +307,7 @@ body::-webkit-scrollbar-thumb {
                 }
 
                 .select-color1:hover {
-                    filter: drop-shadow(3px 0 10px #0c4b7e);
+                    filter: drop-shadow(5px 0 12px #0c4b7e);
                     background-repeat: no-repeat;
                 }
 
@@ -316,7 +317,7 @@ body::-webkit-scrollbar-thumb {
                 }
 
                 .select-color1.active1 {
-                    filter: drop-shadow(3px 0 10px #0c4b7e);
+                    filter: drop-shadow(5px 0 12px #0c4b7e);
                     background-repeat: no-repeat;
                 }
 
