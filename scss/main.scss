@@ -34,6 +34,7 @@ body::-webkit-scrollbar-thumb {
             @include adaptiveValue("margin-left", 600, 200, 1920);
             background-repeat: no-repeat;
             pointer-events: none;
+            filter: drop-shadow(3px 0 10px #c9b191);
         }
 
         &__continue-btn {
@@ -298,6 +299,16 @@ body::-webkit-scrollbar-thumb {
                     height: 140px;
                     background-image: url("../images/coloryellow.svg");
                     cursor: pointer;
+                }
+
+                .select-color1:hover {
+                    filter: drop-shadow(3px 0 10px #0c4b7e);
+                    background-repeat: no-repeat;
+                }
+
+                .select-color2:hover {
+                    filter: drop-shadow(3px 0 10px #c9b191);
+                    background-repeat: no-repeat;
                 }
 
                 .select-color1.active1 {

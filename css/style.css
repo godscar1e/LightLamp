@@ -135,6 +135,8 @@ body::-webkit-scrollbar-thumb {
   height: 49.25rem;
   background-repeat: no-repeat;
   pointer-events: none;
+  -webkit-filter: drop-shadow(3px 0 10px #c9b191);
+          filter: drop-shadow(3px 0 10px #c9b191);
 }
 @media (max-width: 767px) {
   .main .page__bgimage {
@@ -511,6 +513,16 @@ body::-webkit-scrollbar-thumb {
   background-image: url("../images/coloryellow.svg");
   cursor: pointer;
 }
+.main .info__right-block .order .select-color1:hover {
+  -webkit-filter: drop-shadow(3px 0 10px #0c4b7e);
+          filter: drop-shadow(3px 0 10px #0c4b7e);
+  background-repeat: no-repeat;
+}
+.main .info__right-block .order .select-color2:hover {
+  -webkit-filter: drop-shadow(3px 0 10px #c9b191);
+          filter: drop-shadow(3px 0 10px #c9b191);
+  background-repeat: no-repeat;
+}
 .main .info__right-block .order .select-color1.active1 {
   -webkit-filter: drop-shadow(3px 0 10px #0c4b7e);
           filter: drop-shadow(3px 0 10px #0c4b7e);
@@ -859,7 +871,7 @@ body {
   }
   .main .info__left-block .title {
     margin-left: -0.125rem;
-    text-shadow: 1px 2px 0 #1f1611, 2px 2px 0 #f5f5f5;
+    text-shadow: 1px 2px 0 #1f1611, 1px 3px 0 #f5f5f5;
   }
   .main .info .grid-item:nth-child(n) {
     margin-left: -1.25rem;
