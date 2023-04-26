@@ -871,7 +871,7 @@ body {
   }
   .main .info__left-block .title {
     margin-left: -0.125rem;
-    text-shadow: 1px 2px 0 #1f1611, 1px 3px 0 #f5f5f5;
+    text-shadow: 1px 2px 0 #1f1611, 1px 2.5px 0 #f5f5f5;
   }
   .main .info .grid-item:nth-child(n) {
     margin-left: -1.25rem;
