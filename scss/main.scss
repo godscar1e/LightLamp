@@ -99,7 +99,7 @@ body::-webkit-scrollbar-thumb {
             margin-top: rem(38);
             display: none;
             img:nth-child(2) {
-                filter: drop-shadow(0px 3px 10px #c9b191);
+                // filter: drop-shadow(0px 3px 2px #c9b191);
             }
             img:nth-child(3) {
                 filter: drop-shadow(3px 0 10px #c9b191);
