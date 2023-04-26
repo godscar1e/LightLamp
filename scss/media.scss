@@ -1,3 +1,4 @@
+
 @media only screen and (min-width: 768px) {
     .telegram-btn {
         a {
@@ -84,9 +85,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-    *:hover {
-        pointer-events: none;
-    }
     .main {
         .bgimage {
             width: 635px;
@@ -142,9 +140,6 @@
 }
 
 @media only screen and (max-width: 480px) {
-    *:hover {
-        pointer-events: none;
-    }
     html,
     body {
         max-width: 140%;
