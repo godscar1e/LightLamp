@@ -795,6 +795,9 @@ body::-webkit-scrollbar-thumb {
   .info .info__left-block {
     margin-top: 270px;
   }
+  .info .right-block__telegram .telegram-btn {
+    pointer-events: none;
+  }
   .info .right-block__telegram a img {
     padding-left: 0.1875rem;
   }
@@ -852,6 +855,7 @@ body {
     width: 4.25rem;
     height: 1.875rem;
     padding: 0 0.9375rem;
+    pointer-events: none;
   }
   .main .page .phonebgimg {
     width: 20.9375rem;
@@ -934,10 +938,12 @@ body {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.375rem;
+    pointer-events: none;
   }
   .main .info .right-block .order .select-color {
     width: 6.25rem;
     height: 6.25rem;
+    pointer-events: none;
   }
   .main .info .right-block .order .select-color1 {
     background-image: url("../images/colorblue-small.svg");
@@ -980,6 +986,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+    pointer-events: none;
   }
   .main .info .right-block .video {
     max-width: 20.9375rem;
@@ -993,6 +1000,7 @@ body {
     font-size: 16px;
     line-height: 19px;
     padding-right: 8.5625rem;
+    pointer-events: none;
   }
   .main .info .right-block .telegram .telegram-btn img {
     margin-left: 16rem;

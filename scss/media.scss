@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 768px) {
     .telegram-btn {
         a {
@@ -125,8 +124,7 @@
         .right-block {
             &__telegram {
                 .telegram-btn {
-                    // padding-top: rem(7);
-                    // margin-bottom: rem(31);
+                    pointer-events: none;
                 }
                 a {
                     img {
@@ -192,6 +190,7 @@
                 width: rem(68);
                 height: rem(30);
                 padding: 0 rem(15);
+                pointer-events: none;
             }
             .phonebgimg {
                 width: rem(335);
@@ -275,10 +274,12 @@
                         font-weight: 400;
                         font-size: rem(18);
                         line-height: rem(22);
+                        pointer-events: none;
                     }
                     .select-color {
                         width: rem(100);
                         height: rem(100);
+                        pointer-events: none;
                     }
                     .select-color1 {
                         background-image: url("../images/colorblue-small.svg");
@@ -326,6 +327,7 @@
                             font-weight: 500;
                             font-size: 18px;
                             line-height: 22px;
+                            pointer-events: none;
                         }
                     }
                 }
@@ -343,6 +345,7 @@
                         font-size: 16px;
                         line-height: 19px;
                         padding-right: rem(137);
+                        pointer-events: none;
                         img {
                             margin-left: rem(256);
                         }
