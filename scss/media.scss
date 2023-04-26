@@ -124,7 +124,6 @@
         .right-block {
             &__telegram {
                 .telegram-btn {
-                    pointer-events: none;
                 }
                 a {
                     img {
@@ -193,7 +192,6 @@
             .phonebgimg {
                 width: rem(335);
                 margin: rem(-160) 0 0 rem(-120);
-                pointer-events: none;
             }
             &__phonebg {
                 img {
@@ -272,12 +270,10 @@
                         font-weight: 400;
                         font-size: rem(18);
                         line-height: rem(22);
-
                     }
                     .select-color {
                         width: rem(100);
                         height: rem(100);
-
                     }
                     .select-color1 {
                         background-image: url("../images/colorblue-small.svg");
@@ -342,7 +338,6 @@
                         font-size: 16px;
                         line-height: 19px;
                         padding-right: rem(137);
-                        pointer-events: none;
                         img {
                             margin-left: rem(256);
                         }

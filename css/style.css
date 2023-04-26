@@ -795,9 +795,6 @@ body::-webkit-scrollbar-thumb {
   .info .info__left-block {
     margin-top: 270px;
   }
-  .info .right-block__telegram .telegram-btn {
-    pointer-events: none;
-  }
   .info .right-block__telegram a img {
     padding-left: 0.1875rem;
   }
@@ -858,7 +855,6 @@ body {
   .main .page .phonebgimg {
     width: 20.9375rem;
     margin: -10rem 0 0 -7.5rem;
-    pointer-events: none;
   }
   .main .page__phonebg img {
     display: block;
@@ -995,7 +991,6 @@ body {
     font-size: 16px;
     line-height: 19px;
     padding-right: 8.5625rem;
-    pointer-events: none;
   }
   .main .info .right-block .telegram .telegram-btn img {
     margin-left: 16rem;
