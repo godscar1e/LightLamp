@@ -817,7 +817,6 @@ body {
   .main .bgimage {
     width: 20.9375rem;
     margin: -9.375rem 0 0 -10rem;
-    pointer-events: none;
   }
   .main .page {
     width: 18.875rem;
@@ -855,7 +854,6 @@ body {
     width: 4.25rem;
     height: 1.875rem;
     padding: 0 0.9375rem;
-    pointer-events: none;
   }
   .main .page .phonebgimg {
     width: 20.9375rem;
@@ -938,12 +936,10 @@ body {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.375rem;
-    pointer-events: none;
   }
   .main .info .right-block .order .select-color {
     width: 6.25rem;
     height: 6.25rem;
-    pointer-events: none;
   }
   .main .info .right-block .order .select-color1 {
     background-image: url("../images/colorblue-small.svg");
@@ -986,7 +982,6 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    pointer-events: none;
   }
   .main .info .right-block .video {
     max-width: 20.9375rem;
