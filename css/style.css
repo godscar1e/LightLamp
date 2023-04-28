@@ -113,6 +113,7 @@ body::-webkit-scrollbar-thumb {
 }
 .main .page__title {
   max-width: 51.375rem;
+  margin-left: -0.4375rem;
   font-weight: 400;
   font-size: 5.625rem;
   line-height: 6.8125rem;
@@ -710,14 +711,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media only screen and (max-width: 1534px) {
-  .bgimage {
-    width: 930px;
-  }
-  .info .info__body {
-    display: block;
-  }
-}
-@media only screen and (max-width: 1534px) {
   html,
 body {
     max-width: 140%;
@@ -733,10 +726,24 @@ body {
   .info .info__body {
     display: block;
   }
+  .info .telegram {
+    margin-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 1400px) {
   .bgimage {
     width: 830px;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .bgimage {
+    width: 800px;
+    -webkit-transform: translate(-50px, 250px);
+            transform: translate(-50px, 250px);
+  }
+  .page .page__mainpage-buttons {
+    margin-top: 100px;
+    margin: 100px 0 450px 0;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -760,9 +767,6 @@ body {
   }
 }
 @media only screen and (max-width: 1000px) {
-  .page .page__mainpage-buttons {
-    display: none;
-  }
   .page .page__bgimage {
     display: none;
   }
@@ -852,9 +856,6 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: -6.25rem;
-  }
-  .main .page__mainpage-buttons {
-    display: none;
   }
   .main .page #downbtn2 {
     width: 4.25rem;

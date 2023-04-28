@@ -1,25 +1,3 @@
-@media only screen and (min-width: 768px) {
-    .telegram-btn {
-        a {
-            img {
-                // margin-top: rem(-50);
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 1534px) {
-    .bgimage {
-        width: 930px;
-    }
-
-    .info {
-        .info__body {
-            display: block;
-        }
-    }
-}
-
 @media only screen and (max-width: 1534px) {
     html,
     body {
@@ -40,12 +18,28 @@
         .info__body {
             display: block;
         }
+        .telegram {
+            margin-bottom: 50px;
+        }
     }
 }
 
 @media only screen and (max-width: 1400px) {
     .bgimage {
         width: 830px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .bgimage {
+        width: 800px;
+        transform: translate(-50px, 250px);
+    }
+    .page {
+        .page__mainpage-buttons {
+            margin-top: 100px;
+            margin: 100px 0 450px 0;
+        }
     }
 }
 
@@ -70,9 +64,9 @@
 
 @media only screen and (max-width: 1000px) {
     .page {
-        .page__mainpage-buttons {
-            display: none;
-        }
+        // .page__mainpage-buttons {
+        //     display: none;
+        // }
         .page__bgimage {
             display: none;
         }
@@ -117,9 +111,6 @@
             width: 335px;
             transform: translate(-290px, 200px);
         }
-
-        .continue1 {
-        }
     }
 
     .info {
@@ -133,8 +124,6 @@
 
         .right-block {
             &__telegram {
-                .telegram-btn {
-                }
                 a {
                     img {
                         padding-left: rem(3);
@@ -190,9 +179,6 @@
                 display: flex;
                 margin-bottom: rem(-100);
             }
-            &__mainpage-buttons {
-                display: none;
-            }
             #downbtn2 {
                 width: rem(68);
                 height: rem(30);
@@ -202,11 +188,6 @@
                 width: rem(335);
                 margin: rem(-160) 0 0 rem(-120);
             }
-            // &__phonebg {
-            //     // img {
-            //     //     display: block;
-            //     // }
-            // }
         }
         .info {
             max-width: rem(0);
